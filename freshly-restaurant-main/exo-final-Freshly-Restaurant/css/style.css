@@ -735,7 +735,7 @@
           text-align: center;
           margin-inline: auto;
       }
-
+    
       .header .nav_tab {
           display: block;
           width: 100%;
@@ -760,6 +760,16 @@
           padding-bottom: 0.01rem;
       }
 
+
+      .mixitup,
+      .desert_img,
+      .cocktail_img{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+       .img_grid{
+        margin-inline: 25%;
+       }
 
 
       .float img {
@@ -789,9 +799,6 @@
       }
 
 
-
-
-
       .flex {
           display: block;
       }
@@ -815,6 +822,9 @@
           display: block;
       }
 
+        .r_sociau div {
+            margin-inline: 30%;
+        }
       .address {
           display: block;
           padding-block: 1rem;
